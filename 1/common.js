@@ -12,12 +12,12 @@ $(function(){
 
 // 允许cookie的写入与发送
 $.ajaxSetup({crossDomain: true, xhrFields: {withCredentials: true}});
+
 // 全局配置
 var APP = {
 	// 接口的基础路径
 	baseUrl: 'http://fullstack.net.cn:3000'
 };
-
 
 $.fn.serializeToJson = function () {
 
