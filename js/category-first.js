@@ -1,6 +1,6 @@
 $(function () {
 
-	
+	 getData();
 })
 
 function getData() {
